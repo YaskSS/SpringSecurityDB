@@ -1,13 +1,12 @@
 package com.yaskss.model;
 
-import org.springframework.security.core.userdetails.User;
-
 import javax.persistence.*;
 import java.util.Set;
 
 @Entity
 @Table(name = "roles")
 public class Role {
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
